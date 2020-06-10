@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				background: #b4b4b4;
+			}
+			.box1{
+				width: 100%;
+				margin-top: 40px;
+				opacity: 0.6;
+				background: url(img/timg_01_02.png) no-repeat;
+				background-size: 100%;
+				height: 713px;
+			}
+			.box1>img{
+				margin-top: 30px;
+				opacity: 0.5;
+			}
+			.box2{
+				width: 300px;
+				margin: 150px auto;
+				height: 350px;
+				background: #FFFFFF;
+			}
+			.nn{
+				height: 40px;
+				width: 180px;
+				border: none;
+			}
+			img{
+				vertical-align: middle;
+			}
+			.box11{
+				margin: 0px auto;
+				width: 220px;
+				border: 1px solid gray;
+			}
+			.box12{
+				width: 220px;
+				margin: 30px auto;
+				border: 1px solid gray;
+			}
+			.bb{
+				display: inline-block;
+				margin-left: 40px;
+				font-size: 12px;
+				float: left;
+				width: 70px;
+			}
+			.bc{
+				display: inline-block;
+				margin-right: 20px;
+				font-size: 12px;
+				float: right;
+				width: 70px;
+			}
+			a{
+				text-decoration: none;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			<div style="width: 100%; height: 1px; background: #b4b4b4;"></div>
+			<div class="box2">
+				<form action="hello" method="post">
+					<img style="margin-left: 70px;" src="img/1111.png" />
+					<div class="box11">
+						<img src="img/111_01_03.png"><input class="nn" name="username" type="text" />
+					</div>
+					<div class="box12">
+						<img src="img/111_03.png"><input class="nn" name="password" type="password" />
+					</div>
+					<p class="bb"><a href="#">忘记密码</a></p>
+					<p class="bc"><a href="#">立即注册</a></p>
+					<br />
+					<br />
+					<input style="width: 100px; margin-left: 100px;" type="image" img src="img/login.png" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
